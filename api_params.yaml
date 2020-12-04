@@ -1,0 +1,21 @@
+environments:
+  - name: dev
+    endpoints:
+      production:
+        url: "http://localhost:8280/apigw/v2"
+        config:
+          retryTimeOut: $RETRY
+      sandbox:
+        url: "http://localhost:8280/apigw/v2"
+          config:
+            retryTimeOut: $RETRY
+  - name: prod
+    endpoints:
+      production:
+        url: "http://localhost:8280/apigw/v2"
+        config:
+          retryTimeOut: $RETRY
+      sandbox:
+        url: "http://localhost:8280/apigw/v2"
+          config:
+            retryTimeOut: $RETRY
