@@ -4,11 +4,11 @@ id:
   version: 1.0.0
 description: This is a sample server online store
 type: HTTP
-context: /SampleStore/1.0.0
-contextTemplate: /SampleStore/{version}
+context: /SampleAPI/1.0.0
+contextTemplate: /SampleAPI/{version}
 availableTiers:
 - name: Unlimited
-status: PUBLISHED
+status: $STATE
 visibility: public
 transports: http,https
 productionUrl: http://localhost:8080
