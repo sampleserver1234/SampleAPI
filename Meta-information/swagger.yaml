@@ -146,4 +146,4 @@ paths:
             Internal Server Error
             Error while getting product
 servers:
-- url: http://localhost:9090/samplestore
+- url: https://192.168.1.10:9443/
