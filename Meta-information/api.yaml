@@ -8,7 +8,7 @@ context: /SampleAPI/1.0.0
 contextTemplate: /SampleAPI/{version}
 availableTiers:
 - name: Unlimited
-status: $STATE
+status: PUBLISHED
 visibility: public
 transports: http,https
 productionUrl: http://localhost:8080
