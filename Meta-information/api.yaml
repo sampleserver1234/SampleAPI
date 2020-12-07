@@ -2,7 +2,7 @@ id:
   providerName: admin
   apiName: SampleAPI
   version: 1.0.0
-description: This is a sample server API
+description: This is a sample server APIs
 type: HTTP
 context: /SampleAPI/1.0.0
 contextTemplate: /SampleAPI/{version}
